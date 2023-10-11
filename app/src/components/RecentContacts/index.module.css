@@ -1,0 +1,15 @@
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.upper_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.all_contacts{
+    color: rgb(114, 58, 157);
+}

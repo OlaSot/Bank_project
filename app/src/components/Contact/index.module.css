@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    background-color: rgb(242, 244, 246);
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.avatar img{
+    width: 90px;
+}
+
+.name{
+    margin-top: 10px;
+}

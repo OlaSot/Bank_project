@@ -7,7 +7,7 @@ export default function Balance({className}) {
     <div className={`${className} ${s.container}`}>
 
         <h1>Total Balance</h1>
-        <p>29,475.00 <span>USD</span></p>
+        <p>29,475.00<span>USD</span></p>
         <div className={s.btn_container}>
             <Button text={'Send ↑'}/>
             <Button text={'Request ↓'}/>
