@@ -2,5 +2,36 @@
     display: flex;
     margin: 20px auto;
     max-width: 1600px;
+    gap: 30px;
+}
+
+.left_side{
+    width: 30%;
+}
+
+.right_side{
+    width: 70%;
+    display: grid;
+    grid-template-columns: calc(55% - 15px) calc(45% - 15px);
+    grid-template-rows: 320px 1fr 1fr;
+    gap: 30px;
+
+}
+
+.item1{
+    height: 320px;
+}
+
+.item2{
+    height: 320px;
+
+}
+
+.item3{
+    grid-column: 1 / span 2;
+}
+.item4{
+    grid-column: 1 / span 2;
+
 }
 

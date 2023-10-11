@@ -14,12 +14,12 @@ export default function MainPage() {
 				<CardsContainer />
 				<GetMoney />
 			</div>
-			{/* <div className={s.right_side}>
-				<Balance />
-				<Referral />
-				<RecentContacts />
-				<TransactionHistory />
-			</div> */}
+			<div className={s.right_side}>
+				<Balance className={s.item1}/>
+				<Referral className={s.item2}/>
+				<RecentContacts className={s.item3}/>
+				<TransactionHistory className={s.item4}/>
+			</div>
 		</div>
 	)
 }
