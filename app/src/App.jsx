@@ -7,19 +7,22 @@ import CardsPage from './pages/CardsPage'
 import RecipientsPage from './pages/RecipientsPage'
 import HelpCenterPage from './pages/HelpCenterPage'
 import EarnGiftsPage from './pages/EarnGiftsPage'
+import RegisterPage from './pages/RegisterPage'
+import LoginPage from './pages/LoginPage'
 
 function App() {
 	return (
 		<>
-
 			<Header />
 			<Routes>
 				<Route path='/' element={<MainPage />} />
-				<Route path='/cards' element={<CardsPage/>} />
+				<Route path='/cards' element={<CardsPage />} />
 				<Route path='/activity' element={<ActivityPage />} />
 				<Route path='/recipients' element={<RecipientsPage />} />
 				<Route path='/help' element={<HelpCenterPage />} />
 				<Route path='/gifts' element={<EarnGiftsPage />} />
+				<Route path='/register' element={<RegisterPage />}></Route>
+				<Route path='/login' element={<LoginPage />}></Route>
 			</Routes>
 		</>
 	)
