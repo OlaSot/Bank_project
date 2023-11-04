@@ -9,8 +9,17 @@ import HelpCenterPage from './pages/HelpCenterPage'
 import EarnGiftsPage from './pages/EarnGiftsPage'
 import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
+import { fetchUsers } from './requests/users_req'
+import { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+
 
 function App() {
+	const dispatch = useDispatch()
+	useEffect(() => {
+		dispatch(fetchUsers())
+	},[dispatch])
+
 	return (
 		<>
 			<Header />

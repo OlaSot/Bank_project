@@ -9,7 +9,7 @@ export default function TransactionHistory({ className }) {
 			<div className={s.upper_block}>
 				<p>Transaction History</p>
 				<div className={s.calendar}>
-            <Calendar />
+            {/* <Calendar /> */}
         </div>
 			</div>
 		</div>

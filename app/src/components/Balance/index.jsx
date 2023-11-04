@@ -2,12 +2,12 @@ import React from 'react'
 import s from './index.module.css'
 import Button from '../Button'
 
-export default function Balance({className}) {
+export default function Balance({className, balance}) {
   return (
     <div className={`${className} ${s.container}`}>
 
         <h1>Total Balance</h1>
-        <p>29,475.00<span>USD</span></p>
+        <p>{balance}<span>USD</span></p>
         <div className={s.btn_container}>
             <Button text={'Send ↑'}/>
             <Button text={'Request ↓'}/>
